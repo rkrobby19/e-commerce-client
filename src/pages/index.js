@@ -3,7 +3,6 @@ import ListProducts from '../components/Products/ListProducts';
 import { getProducts } from '../utils/products.js';
 
 export default function Home({ data }) {
-  console.log(data);
   return (
     <>
       <Head>

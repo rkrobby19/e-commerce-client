@@ -30,7 +30,7 @@ const ProductItem = ({ product }) => {
         <div className="md:w-2/4">
           <div className="p-4">
             <Link
-              href={`/product/${product._id}`}
+              href={`/products/${product._id}`}
               className="hover:text-blue-600"
             >
               {product.name}
